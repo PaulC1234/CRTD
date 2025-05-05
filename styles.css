@@ -25,7 +25,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 header .container {
@@ -91,6 +91,7 @@ nav ul li a:hover {
     min-height: 90vh;
     display: flex;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .hero .container {
@@ -100,6 +101,7 @@ nav ul li a:hover {
     margin: 0 auto;
     padding: 0 4rem;
     width: 100%;
+    min-height: 60vh;
 }
 
 .hero-decoration {
@@ -138,6 +140,8 @@ nav ul li a:hover {
 @media (max-width: 1200px) {
     .hero {
         padding: 16rem 0 5rem;
+        min-height: 100vh;
+        margin-top: 1.5rem;
     }
     
     .hero .container {
@@ -172,7 +176,8 @@ nav ul li a:hover {
 @media (max-width: 768px) {
     .hero {
         padding: 14rem 0 4rem;
-        min-height: auto;
+        min-height: 110vh;
+        margin-top: 2rem;
     }
 
     .hero .container {
@@ -201,12 +206,19 @@ nav ul li a:hover {
         height: auto;
     }
 
+    header {
+        padding: 0.8rem 0;
+    }
+
     .hero {
         padding: 12rem 0 3rem;
+        min-height: 120vh;
+        margin-top: 2.5rem;
     }
 
     .hero .container {
         padding: 0 2rem;
+        min-height: 70vh;
     }
 
     .hero h2 {

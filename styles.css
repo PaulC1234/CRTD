@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 /* Hero section */
 .hero {
-    padding: 18rem 0 6rem;
+    padding: 15rem 0 6rem;
     text-align: center;
     background-color: #2a2a2a;
     color: #ffffff;
@@ -139,9 +139,9 @@ nav ul li a:hover {
 
 @media (max-width: 1200px) {
     .hero {
-        padding: 16rem 0 5rem;
+        padding: 14rem 0 5rem;
         min-height: 100vh;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
     
     .hero .container {
@@ -175,9 +175,9 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
     .hero {
-        padding: 14rem 0 4rem;
+        padding: 13rem 0 4rem;
         min-height: 110vh;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .hero .container {
@@ -208,7 +208,7 @@ nav ul li a:hover {
     .hero {
         padding: 12rem 0 3rem;
         min-height: 120vh;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
     }
 
     .hero .container {

@@ -41,9 +41,10 @@ header .container {
 }
 
 .logo img {
-    height: 64px;
     width: auto;
+    height: 60px;
     display: block;
+    margin: 0 auto;
 }
 
 h1, h2 {
@@ -203,6 +204,11 @@ nav ul li a:hover {
 @media (max-width: 480px) {
     header {
         padding: 0.8rem 0;
+    }
+
+    .logo img {
+        height: 60px;
+        width: auto;
     }
 
     .hero {

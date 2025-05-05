@@ -201,11 +201,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 480px) {
-    .logo img {
-        width: 90%;
-        height: auto;
-    }
-
     header {
         padding: 0.8rem 0;
     }

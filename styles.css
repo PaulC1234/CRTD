@@ -330,23 +330,24 @@ nav ul li a:hover {
 }
 
 .email-btn {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #007bff, #0056b3);
     color: white;
 }
 
 .review-btn {
-    background-color: #28a745;
+    background: linear-gradient(45deg, #0056b3, #004494);
     color: white;
 }
 
 .facebook-btn {
-    background-color: #1877f2;
+    background: linear-gradient(45deg, #004494, #003375);
     color: white;
 }
 
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
 }
 
 @media (max-width: 768px) {

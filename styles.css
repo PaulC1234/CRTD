@@ -356,8 +356,9 @@ nav ul li a:hover {
     }
 
     .instagram-feed h2, .contact h2 {
-        font-size: 2.4rem;
-        margin-bottom: 2.5rem;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
     }
 
     .contact-buttons {

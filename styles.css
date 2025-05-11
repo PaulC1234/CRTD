@@ -257,44 +257,54 @@ nav ul li a:hover {
 
 /* Instagram section */
 .instagram-feed {
-    padding: 4rem 0;
-    background-color: #fff;
+    padding: 6rem 0;
+    background-color: #f8f9fa;
+    position: relative;
 }
 
 .instagram-feed h2 {
     font-family: 'Special Gothic Expanded One', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    width: 100%;
 }
 
 .instagram-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Contact section */
 .contact {
-    padding: 4rem 0;
-    background-color: #f8f9fa;
+    padding: 6rem 0;
+    background-color: #2a2a2a;
     text-align: center;
+    position: relative;
 }
 
 .contact h2 {
     font-family: 'Special Gothic Expanded One', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
 }
 
 .contact-buttons {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
@@ -304,16 +314,19 @@ nav ul li a:hover {
     display: inline-flex;
     align-items: center;
     padding: 1.2rem 2.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
-    font-weight: 500;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-width: 180px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    min-width: 200px;
     justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn i {
-    margin-right: 0.5rem;
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .email-btn {
@@ -332,8 +345,29 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    .instagram-feed, .contact {
+        padding: 4rem 0;
+    }
+
+    .instagram-feed h2, .contact h2 {
+        font-size: 2.4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contact-buttons {
+        gap: 1.5rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        min-width: 180px;
+        font-size: 1rem;
+    }
 }
 
 /* Footer */
